@@ -13,7 +13,7 @@ h5,
 h6,
 p {
   background: orange;
-  font-size: ;
+  font-size ;
 }
 blockquote,
 pre,
@@ -124,4 +124,25 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*
+
+=================================================
+grid
+=================================================
+
+*/
+*,
+*:before,
+*after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
 }
